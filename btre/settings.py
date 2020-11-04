@@ -25,7 +25,9 @@ SECRET_KEY = 'qn$xf=nq$b)hk2@%3u_o@6^w_@byl=l138w7mmgdfueb_r43os'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django-immo.herokuapp.com'
+]
 
 
 # Application definition
