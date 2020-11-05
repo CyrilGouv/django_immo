@@ -23,10 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'qn$xf=nq$b)hk2@%3u_o@6^w_@byl=l138w7mmgdfueb_r43os'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    'django-immo.herokuapp.com'
+    'django-immo.herokuapp.com',
+    'localhost',
+    '127.0.0.1'
 ]
 
 
